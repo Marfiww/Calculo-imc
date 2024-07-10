@@ -28,17 +28,17 @@ form.addEventListener("submit", (event) => {
     value.classList.remove("normal");
     value.classList.remove("attention");
   } else if (imc > 30 && imc <= 35) {
-    description = "Você está no peso com obesidade moderada!! ";
+    description = "Você está  com obesidade moderada!! ";
     value.classList.add("attention");
     value.classList.remove("normal");
     value.classList.remove("moderada");
   } else if (imc > 35 && imc <= 40) {
-    description = " CUIDADO! Você está no peso com obesidade severa!! ";
+    description = " CUIDADO! Você está com obesidade severa!! ";
     value.classList.add("attention");
     value.classList.remove("normal");
     value.classList.remove("moderada");
   } else {
-    description = " CUIDADO! Você está no peso com obesidade morbida!! ";
+    description = " CUIDADO! Você está com obesidade morbida!! ";
     value.classList.add("attention");
     value.classList.remove("normal");
     value.classList.remove("moderada");
